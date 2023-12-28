@@ -70,11 +70,8 @@ export default function MatchTable({
                     <td className="whitespace-nowrap px-3 py-3">
                       <div className="flex gap-1">
                         {match.units.map((unit, unitId) => {
-                          const borderColor =
-                            'border-unit-' +
-                            tftChampions.data[
-                              unit.character_id
-                            ].tier.toString();
+                          const tier =
+                            tftChampions.data[unit.character_id].tier;
 
                           return (
                             <div key={unitId} className="flex flex-col gap-1">
@@ -95,7 +92,17 @@ export default function MatchTable({
                                 }`}
                                 width={45}
                                 height={45}
-                                className={`rounded-lg ${borderColor} border-2`}
+                                className={`rounded-lg border-[2.5px] ${
+                                  tier === 1
+                                    ? 'border-unit-1'
+                                    : tier === 2
+                                    ? 'border-unit-2'
+                                    : tier === 3
+                                    ? 'border-unit-3'
+                                    : tier === 4
+                                    ? 'border-unit-4'
+                                    : 'border-unit-5'
+                                }`}
                                 alt={`${unit.character_id} image`}
                               />
 
