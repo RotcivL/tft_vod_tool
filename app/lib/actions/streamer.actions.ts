@@ -63,7 +63,6 @@ export async function addStreamer(prevState: State, formData: FormData) {
 
   try {
     connectToDB();
-
     const updateTime = Date.now() - 2 * DAY_IN_MILLI;
     const vods = await updateVods(
       twitchRes.user as string,
@@ -107,7 +106,7 @@ export async function updateStreamer(id: string) {
       return vod._id;
     });
 
-    streamer.vods = streamer.vods.concat(vodIds);
+    streamer.vods = vodIds.concat(streamer.vods);
     streamer.lastUpdate = Date.now();
     await streamer.save();
   } catch (error) {
@@ -217,6 +216,9 @@ export async function fetchStreamer(id: string) {
       .populate({
         path: 'vods',
         model: Vod,
+        options: {
+          sort: { startTime: -1 },
+        },
         populate: {
           path: 'matches',
           model: Match,
