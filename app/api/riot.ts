@@ -1,7 +1,7 @@
 'use server';
 
 import { RateLimiter } from 'limiter';
-import { MatchDto, RegionKey } from '../lib/types';
+import { MatchDto, RegionKey, Env } from '../lib/types';
 import riotRoutes from '@/app/constants/riotRoutes.json';
 
 const twoMinuteLimiter = new RateLimiter({
@@ -13,14 +13,40 @@ const secondLimiter = new RateLimiter({
   interval: 'second',
 });
 
+async function getRiotKey() {
+  const res = await fetch(
+    'https://api.vercel.com/v8/projects/prj_YlgsLi7mqhfE4bLMMBhmAzvqBXy9/env?decrypt=true',
+    {
+      headers: {
+        Authorization: ('Bearer ' + process.env.VERCEL) as string,
+      },
+      method: 'get',
+    }
+  );
+  if (res.status != 200) {
+    console.log('Error getting riot key');
+    throw new Error('Error getting riot key');
+  }
+  const envs: Env = await res.json();
+  const riotEnv = envs.envs.find(env => env.key === 'RIOT_API_KEY');
+  if (!riotEnv?.value) {
+    console.log('Error getting riot key');
+    throw new Error('Error getting riot key');
+  }
+  return riotEnv.value;
+}
+
 export async function getPuuid(summonerName: string, tag: string) {
   await twoMinuteLimiter.removeTokens(1);
   await secondLimiter.removeTokens(1);
+  const riotKey = await getRiotKey();
+  console.log(riotKey);
+
   const url = `https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${summonerName}/${tag}`;
   const res = await fetch(url, {
     headers: {
       'Content-Type': 'application/json',
-      'X-Riot-Token': process.env.RIOT_API_KEY as string,
+      'X-Riot-Token': riotKey,
     },
     cache: 'no-store',
   });
@@ -44,6 +70,7 @@ export async function getMatches(
 ) {
   await twoMinuteLimiter.removeTokens(1);
   await secondLimiter.removeTokens(1);
+  const riotKey = await getRiotKey();
   const routeRegion = riotRoutes[region];
   const url = new URL(
     `https://${routeRegion}.api.riotgames.com/tft/match/v1/matches/by-puuid/${puuid}/ids`
@@ -55,28 +82,35 @@ export async function getMatches(
   const res = await fetch(url.href, {
     headers: {
       'Content-Type': 'application/json',
-      'X-Riot-Token': process.env.RIOT_API_KEY as string,
+      'X-Riot-Token': riotKey,
     },
     cache: 'no-store',
   });
 
   const matchIds: string[] = await res.json();
-  // console.log(matchIds);
+  console.log(matchIds);
   const matches = await Promise.all(
-    matchIds.map((matchId: string) => getMatch(matchId, routeRegion, puuid))
+    matchIds.map((matchId: string) =>
+      getMatch(matchId, routeRegion, puuid, riotKey)
+    )
   );
 
   return matches;
 }
 
-async function getMatch(matchId: string, routeRegion: string, puuid: string) {
+async function getMatch(
+  matchId: string,
+  routeRegion: string,
+  puuid: string,
+  riotKey: string
+) {
   await twoMinuteLimiter.removeTokens(1);
   await secondLimiter.removeTokens(1);
   const url = `https://${routeRegion}.api.riotgames.com/tft/match/v1/matches/${matchId}`;
   const res = await fetch(url, {
     headers: {
       'Content-Type': 'application/json',
-      'X-Riot-Token': process.env.RIOT_API_KEY as string,
+      'X-Riot-Token': riotKey,
     },
     cache: 'no-store',
   });

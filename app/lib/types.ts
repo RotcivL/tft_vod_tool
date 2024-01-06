@@ -111,6 +111,81 @@ export interface State {
 
 export type RegionKey = keyof typeof riotRoutes;
 
+export type Env = {
+  envs: {
+    target?:
+      | ('production' | 'preview' | 'development' | 'preview' | 'development')[]
+      | ('production' | 'preview' | 'development' | 'preview' | 'development');
+    type?: 'secret' | 'system' | 'encrypted' | 'plain' | 'sensitive';
+    id?: string;
+    key?: string;
+    value?: string;
+    configurationId?: string | null;
+    createdAt?: number;
+    updatedAt?: number;
+    createdBy?: string | null;
+    updatedBy?: string | null;
+    gitBranch?: string;
+    edgeConfigId?: string | null;
+    edgeConfigTokenId?: string | null;
+    contentHint?:
+      | (
+          | {
+              type: 'redis-url';
+              storeId: string;
+            }
+          | {
+              type: 'redis-rest-api-url';
+              storeId: string;
+            }
+          | {
+              type: 'redis-rest-api-token';
+              storeId: string;
+            }
+          | {
+              type: 'redis-rest-api-read-only-token';
+              storeId: string;
+            }
+          | {
+              type: 'blob-read-write-token';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-url';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-url-non-pooling';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-prisma-url';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-user';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-host';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-password';
+              storeId: string;
+            }
+          | {
+              type: 'postgres-database';
+              storeId: string;
+            }
+          | { [key: string]: unknown }
+        )
+      | null;
+    decrypted?: boolean;
+    comment?: string;
+    system?: boolean;
+  }[];
+};
 type augmentType = keyof typeof tftAugments.data;
 
 type championType = keyof typeof tftChampions.data;

@@ -70,6 +70,7 @@ export async function addStreamer(prevState: State, formData: FormData) {
       region,
       updateTime
     );
+    console.log(vods);
     const newStreamer = new Streamer({
       twitchName,
       summonerName,
@@ -130,6 +131,8 @@ async function updateVods(
     vods.map(async vod => {
       const startTime = vod.creationDate.getTime();
       const endTime = startTime + vod.durationInSeconds * 1000;
+      console.log(startTime, endTime);
+
       const matches = await getMatches(
         puuid,
         region as RegionKey,
