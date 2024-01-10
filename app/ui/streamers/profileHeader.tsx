@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Home } from '@/app/ui/streamers/buttons';
 import Button from '@/app/ui/button';
 import { updateStreamer } from '@/app/lib/actions/streamer.actions';
+import { useTransition } from 'react';
 
 export default function ({
   id,
@@ -20,12 +21,20 @@ export default function ({
   profilePicture: string;
   lastUpdated: Date;
 }) {
+  const [isPending, startTransition] = useTransition();
+
   return (
     <div className="flex w-full flex-col justify-center gap-2">
       <div className=" flex w-48 items-center gap-2">
         <Home />
-        <Button onClick={() => updateStreamer(id)} type="button">
-          Update
+        <Button
+          onClick={() => {
+            startTransition(() => {
+              updateStreamer(id);
+            });
+          }}
+          type="button">
+          {isPending ? 'Updating...' : 'Update'}
         </Button>
       </div>
       <div className="flex items-center justify-between">
@@ -55,6 +64,11 @@ export default function ({
       <p className="mt-6 max-w-lg text-base-regular text-dark-3">
         {lastUpdated.toUTCString()}
       </p>
+      {isPending ? (
+        <div className="flex justify-start text-heading1-semibold">
+          Looking for latest Vods
+        </div>
+      ) : null}
 
       <div className="mt-12 h-0.5 w-full bg-dark-3" />
     </div>

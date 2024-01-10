@@ -21,6 +21,7 @@ async function getRiotKey() {
         Authorization: ('Bearer ' + process.env.VERCEL) as string,
       },
       method: 'get',
+      cache: 'no-store',
     }
   );
   if (res.status != 200) {

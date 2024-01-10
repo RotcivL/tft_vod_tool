@@ -5,7 +5,8 @@ import { Region } from '@/app/constants/regions';
 import { State } from '@/app/lib/types';
 import Button from '@/app/ui/button';
 import Link from 'next/link';
-import { useFormState } from 'react-dom';
+import { useFormState, useFormStatus } from 'react-dom';
+import { SubmitButton } from './submitButton';
 
 export default function Form() {
   const initialState = { errors: {}, message: null };
@@ -13,6 +14,8 @@ export default function Form() {
     addStreamer,
     initialState
   );
+  const { pending } = useFormStatus();
+  console.log(pending);
 
   return (
     <form action={dispatch}>
@@ -143,7 +146,7 @@ export default function Form() {
           className="flex h-10 items-center rounded-lg bg-gray-100 px-4 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-200">
           Cancel
         </Link>
-        <Button type="submit">Add Streamer</Button>
+        <SubmitButton />
       </div>
     </form>
   );

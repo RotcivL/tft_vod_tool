@@ -1,5 +1,5 @@
 import { VodType } from '@/app/lib/types';
-import { ViewVod } from './buttons';
+import { ViewVod } from '@/app/ui/vods/buttons';
 
 export default async function VodTable({
   streamer,
@@ -12,7 +12,7 @@ export default async function VodTable({
     <div className="mt-6 flow-root">
       <div className="inline-block min-w-full align-middle">
         <div className="rounded-lg bg-gray-50 p-2 md:pt-0">
-          <table className="hidden min-w-full text-gray-900 md:table">
+          <table className="min-w-full text-gray-900">
             <thead className="rounded-lg text-left text-sm font-normal">
               <tr>
                 <th scope="col" className="px-3 py-5 font-medium">
@@ -37,7 +37,7 @@ export default async function VodTable({
                   <td className="whitespace-nowrap px-3 py-3">{vod.avg}</td>
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
                     <div className="flex justify-end gap-3">
-                      <ViewVod streamerId={streamer} vodId={vod.vodId} />
+                      <ViewVod streamerId={streamer} vodId={vod._id} />
                     </div>
                   </td>
                 </tr>

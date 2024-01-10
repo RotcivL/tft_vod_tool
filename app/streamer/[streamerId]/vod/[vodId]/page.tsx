@@ -1,5 +1,5 @@
-import { fetchStreamer } from '@/app/lib/actions/streamer.actions';
-import { StreamerType } from '@/app/lib/types';
+import { fetchVod } from '@/app/lib/actions/streamer.actions';
+import { VodType } from '@/app/lib/types';
 import { Home, ViewStreamer } from '@/app/ui/streamers/buttons';
 import VodPlayer from '@/app/ui/vods/vod';
 import { notFound } from 'next/navigation';
@@ -9,9 +9,8 @@ export default async function Page({
 }: {
   params: { streamerId: string; vodId: string };
 }) {
-  console.log(params);
-  const streamer: StreamerType = await fetchStreamer(params.streamerId);
-  const vod = streamer.vods.find(vod => vod.vodId === params.vodId);
+  const vod: VodType = await fetchVod(params.vodId);
+
   if (!vod) {
     notFound();
   }

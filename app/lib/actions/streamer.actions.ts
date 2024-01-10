@@ -1,5 +1,6 @@
 'use server';
 
+import { Types } from 'mongoose';
 import { connectToDB } from '../mongoose';
 import { Region } from '@/app/constants/regions';
 import { getMatches, getPuuid } from '@/app/api/riot';
@@ -212,7 +213,12 @@ export async function fetchStreamerPages(query: string) {
   }
 }
 
-export async function fetchStreamer(id: string) {
+export async function fetchStreamerFilteredVods(
+  id: string,
+  currentPage: number
+) {
+  const offset = (currentPage - 1) * ITEMS_PER_PAGE;
+
   try {
     connectToDB();
     const streamer = await Streamer.findById(id)
@@ -221,20 +227,58 @@ export async function fetchStreamer(id: string) {
         model: Vod,
         options: {
           sort: { startTime: -1 },
-        },
-        populate: {
-          path: 'matches',
-          model: Match,
-          options: {
-            sort: { vodTime: 1 },
-          },
+          skip: offset,
+          perDocumentLimit: ITEMS_PER_PAGE,
         },
       })
       .exec();
 
-    return streamer.toObject({ flattenObjectIds: true });
+    return streamer;
   } catch (error) {
     console.error('Database Error:', error);
+    throw new Error('Failed to fetch streamer.');
+  }
+}
+
+export async function fetchVodPages(id: string) {
+  try {
+    connectToDB();
+    const [count] = await Streamer.aggregate([
+      {
+        $match: { _id: new Types.ObjectId(id) },
+      },
+      {
+        $project: {
+          count: { $size: '$vods' },
+        },
+      },
+    ]);
+
+    const totalPages = Math.ceil(Number(count.count) / ITEMS_PER_PAGE);
+    return totalPages;
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch total number of vods.');
+  }
+}
+
+export async function fetchVod(id: string) {
+  try {
+    connectToDB();
+    const vod = await Vod.findById(id)
+      .populate({
+        path: 'matches',
+        model: Match,
+        options: {
+          sort: { vodTime: 1 },
+        },
+      })
+      .exec();
+
+    return vod.toObject({ flattenObjectIds: true });
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch vod.');
   }
 }
 
