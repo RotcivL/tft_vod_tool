@@ -1,7 +1,46 @@
 {
   "type": "tft-item",
-  "version": "13.24.1",
+  "version": "14.7.1",
   "data": {
+    "TFTTutorial_Item_NeedlesslyLargeRod": {
+      "id": "TFTTutorial_Item_NeedlesslyLargeRod",
+      "name": "Needlessly Large Rod",
+      "image": {
+        "full": "TFTTutorial_Item_NeedlesslyLargeRod.png",
+        "sprite": "tft-item0.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFTTutorial_Item_RecurveBow": {
+      "id": "TFTTutorial_Item_RecurveBow",
+      "name": "Recurve Bow",
+      "image": {
+        "full": "TFTTutorial_Item_RecurveBow.png",
+        "sprite": "tft-item0.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFTTutorial_Item_GuinsoosRageblade": {
+      "id": "TFTTutorial_Item_GuinsoosRageblade",
+      "name": "Guinsoo's Rageblade",
+      "image": {
+        "full": "TFTTutorial_Item_GuinsoosRageblade.png",
+        "sprite": "tft-item0.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
     "TFT_Consumable_NeekosHelp": {
       "id": "TFT_Consumable_NeekosHelp",
       "name": "Champion Duplicator",
@@ -9,7 +48,7 @@
         "full": "TFT_Consumable_NeekosHelp.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 0,
         "w": 48,
         "h": 48
@@ -22,7 +61,7 @@
         "full": "TFT_Item_BFSword.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 0,
         "w": 48,
         "h": 48
@@ -35,7 +74,7 @@
         "full": "TFT_Item_Bloodthirster.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 0,
         "w": 48,
         "h": 48
@@ -48,7 +87,7 @@
         "full": "TFT_Item_BrambleVest.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 0,
         "w": 48,
         "h": 48
@@ -61,7 +100,7 @@
         "full": "TFT_Item_ChainVest.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48
@@ -74,7 +113,7 @@
         "full": "TFT_Item_SparringGloves.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 0,
         "w": 48,
         "h": 48
@@ -87,7 +126,7 @@
         "full": "TFT_Item_Deathblade.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
@@ -100,8 +139,8 @@
         "full": "TFT_Item_DragonsClaw.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -113,8 +152,8 @@
         "full": "TFT_Item_EmptyBag.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 0,
+        "x": 48,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -126,8 +165,8 @@
         "full": "TFT_Item_ForceOfNature.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 96,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -139,7 +178,7 @@
         "full": "TFT_Item_ThiefsGloves.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 48,
         "w": 48,
         "h": 48
@@ -152,7 +191,7 @@
         "full": "TFT_Item_ThiefsGloves_Empty.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 48,
         "w": 48,
         "h": 48
@@ -165,7 +204,7 @@
         "full": "TFT_Item_Shroud.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 48,
         "w": 48,
         "h": 48
@@ -178,7 +217,7 @@
         "full": "TFT_Item_FrozenHeart.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 48,
         "w": 48,
         "h": 48
@@ -191,7 +230,7 @@
         "full": "TFT_Item_GiantsBelt.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 48,
         "w": 48,
         "h": 48
@@ -204,7 +243,7 @@
         "full": "TFT_Item_MadredsBloodrazor.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 48,
         "w": 48,
         "h": 48
@@ -217,7 +256,7 @@
         "full": "TFT_Item_GuardianAngel.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 48,
         "w": 48,
         "h": 48
@@ -230,8 +269,8 @@
         "full": "TFT_Item_GuinsoosRageblade.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 48,
+        "x": 0,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -243,8 +282,8 @@
         "full": "TFT_Item_UnstableConcoction.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 48,
+        "x": 48,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -256,8 +295,8 @@
         "full": "TFT_Item_HextechGunblade.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 48,
+        "x": 96,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -269,7 +308,7 @@
         "full": "TFT_Item_Chalice.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 96,
         "w": 48,
         "h": 48
@@ -282,7 +321,7 @@
         "full": "TFT_Item_InfinityEdge.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 96,
         "w": 48,
         "h": 48
@@ -295,7 +334,7 @@
         "full": "TFT_Item_IonicSpark.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 96,
         "w": 48,
         "h": 48
@@ -308,7 +347,7 @@
         "full": "TFT_Item_JeweledGauntlet.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 96,
         "w": 48,
         "h": 48
@@ -321,7 +360,7 @@
         "full": "TFT_Item_LastWhisper.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 96,
         "w": 48,
         "h": 48
@@ -334,7 +373,7 @@
         "full": "TFT_Item_LocketOfTheIronSolari.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 96,
         "w": 48,
         "h": 48
@@ -347,7 +386,7 @@
         "full": "TFT_Item_ArchangelsStaff.png",
         "sprite": "tft-item0.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 96,
         "w": 48,
         "h": 48
@@ -358,10 +397,10 @@
       "name": "Spatula",
       "image": {
         "full": "TFT_Item_Spatula.png",
-        "sprite": "tft-item0.png",
+        "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 96,
+        "x": 0,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -371,10 +410,10 @@
       "name": "Quicksilver",
       "image": {
         "full": "TFT_Item_Quicksilver.png",
-        "sprite": "tft-item0.png",
+        "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 96,
+        "x": 48,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -384,10 +423,10 @@
       "name": "Morellonomicon",
       "image": {
         "full": "TFT_Item_Morellonomicon.png",
-        "sprite": "tft-item0.png",
+        "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 96,
+        "x": 96,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -399,7 +438,7 @@
         "full": "TFT_Item_NeedlesslyLargeRod.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 0,
         "w": 48,
         "h": 48
@@ -412,7 +451,7 @@
         "full": "TFT_Item_NegatronCloak.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 0,
         "w": 48,
         "h": 48
@@ -425,7 +464,7 @@
         "full": "TFT_Item_PowerGauntlet.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 0,
         "w": 48,
         "h": 48
@@ -438,7 +477,7 @@
         "full": "TFT_Item_RabadonsDeathcap.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 0,
         "w": 48,
         "h": 48
@@ -451,7 +490,7 @@
         "full": "TFT_Item_RapidFireCannon.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48
@@ -464,7 +503,7 @@
         "full": "TFT_Item_RecurveBow.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 0,
         "w": 48,
         "h": 48
@@ -477,7 +516,7 @@
         "full": "TFT_Item_RedBuff.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
@@ -490,8 +529,8 @@
         "full": "TFT_Item_Redemption.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -503,8 +542,8 @@
         "full": "TFT_Item_RunaansHurricane.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 0,
+        "x": 48,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -516,8 +555,8 @@
         "full": "TFT_Item_SpearOfShojin.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 96,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -529,7 +568,7 @@
         "full": "TFT_Item_StatikkShiv.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 48,
         "w": 48,
         "h": 48
@@ -542,7 +581,7 @@
         "full": "TFT_Item_GargoyleStoneplate.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 48,
         "w": 48,
         "h": 48
@@ -555,7 +594,7 @@
         "full": "TFT_Item_TearOfTheGoddess.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 48,
         "w": 48,
         "h": 48
@@ -568,7 +607,7 @@
         "full": "TFT_Item_TitanicHydra.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 48,
         "w": 48,
         "h": 48
@@ -581,7 +620,7 @@
         "full": "TFT_Item_TitansResolve.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 48,
         "w": 48,
         "h": 48
@@ -594,7 +633,7 @@
         "full": "TFT_Item_WarmogsArmor.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 48,
         "w": 48,
         "h": 48
@@ -607,7 +646,7 @@
         "full": "TFT_Item_ZekesHerald.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 48,
         "w": 48,
         "h": 48
@@ -620,8 +659,8 @@
         "full": "TFT_Item_Zephyr.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 48,
+        "x": 0,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -633,8 +672,8 @@
         "full": "TFT_Consumable_ItemRemover.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 48,
+        "x": 48,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -646,8 +685,8 @@
         "full": "TFT_Consumable_ItemReroller.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 48,
+        "x": 96,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -659,7 +698,7 @@
         "full": "TFT_Consumable_ShopReroller.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 96,
         "w": 48,
         "h": 48
@@ -672,7 +711,7 @@
         "full": "TFT_Item_DebugBase.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 96,
         "w": 48,
         "h": 48
@@ -685,7 +724,7 @@
         "full": "TFT4_Item_OrnnAnimaVisage.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 96,
         "w": 48,
         "h": 48
@@ -698,7 +737,7 @@
         "full": "TFT4_Item_OrnnDeathsDefiance.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 96,
         "w": 48,
         "h": 48
@@ -711,7 +750,7 @@
         "full": "TFT4_Item_OrnnEternalWinter.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 96,
         "w": 48,
         "h": 48
@@ -724,7 +763,7 @@
         "full": "TFT4_Item_OrnnTheCollector.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 96,
         "w": 48,
         "h": 48
@@ -737,7 +776,7 @@
         "full": "TFT4_Item_OrnnInfinityForce.png",
         "sprite": "tft-item1.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 96,
         "w": 48,
         "h": 48
@@ -748,10 +787,10 @@
       "name": "Manazane",
       "image": {
         "full": "TFT4_Item_OrnnMuramana.png",
-        "sprite": "tft-item1.png",
+        "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 96,
+        "x": 0,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -761,10 +800,10 @@
       "name": "Obsidian Cleaver",
       "image": {
         "full": "TFT4_Item_OrnnObsidianCleaver.png",
-        "sprite": "tft-item1.png",
+        "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 96,
+        "x": 48,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -774,10 +813,10 @@
       "name": "Randuin's Omen",
       "image": {
         "full": "TFT4_Item_OrnnRanduinsSanctum.png",
-        "sprite": "tft-item1.png",
+        "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 96,
+        "x": 96,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -789,7 +828,7 @@
         "full": "TFT4_Item_OrnnZhonyasParadox.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 0,
         "w": 48,
         "h": 48
@@ -802,7 +841,7 @@
         "full": "TFT5_Item_TrapClawRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 0,
         "w": 48,
         "h": 48
@@ -815,7 +854,7 @@
         "full": "TFT5_Item_BloodthirsterRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 0,
         "w": 48,
         "h": 48
@@ -828,7 +867,7 @@
         "full": "TFT5_Item_IonicSparkRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 0,
         "w": 48,
         "h": 48
@@ -841,7 +880,7 @@
         "full": "TFT5_Item_GiantSlayerRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48
@@ -854,7 +893,7 @@
         "full": "TFT5_Item_DragonsClawRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 0,
         "w": 48,
         "h": 48
@@ -867,7 +906,7 @@
         "full": "TFT5_Item_GargoyleStoneplateRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
@@ -880,8 +919,8 @@
         "full": "TFT5_Item_LastWhisperRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -893,8 +932,8 @@
         "full": "TFT5_Item_HandOfJusticeRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 0,
+        "x": 48,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -906,8 +945,8 @@
         "full": "TFT5_Item_FrozenHeartRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 96,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -919,7 +958,7 @@
         "full": "TFT5_Item_JeweledGauntletRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 48,
         "w": 48,
         "h": 48
@@ -932,7 +971,7 @@
         "full": "TFT5_Item_GuardianAngelRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 48,
         "w": 48,
         "h": 48
@@ -945,7 +984,7 @@
         "full": "TFT5_Item_GuinsoosRagebladeRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 48,
         "w": 48,
         "h": 48
@@ -958,7 +997,7 @@
         "full": "TFT5_Item_HextechGunbladeRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 48,
         "w": 48,
         "h": 48
@@ -971,7 +1010,7 @@
         "full": "TFT5_Item_DeathbladeRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 48,
         "w": 48,
         "h": 48
@@ -984,7 +1023,7 @@
         "full": "TFT5_Item_MorellonomiconRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 48,
         "w": 48,
         "h": 48
@@ -997,7 +1036,7 @@
         "full": "TFT5_Item_QuicksilverRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1010,8 +1049,8 @@
         "full": "TFT5_Item_RabadonsDeathcapRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 48,
+        "x": 0,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1023,8 +1062,8 @@
         "full": "TFT5_Item_RedemptionRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 48,
+        "x": 48,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1036,8 +1075,8 @@
         "full": "TFT5_Item_RapidFirecannonRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 48,
+        "x": 96,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1049,7 +1088,7 @@
         "full": "TFT5_Item_ThiefsGlovesRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1062,7 +1101,7 @@
         "full": "TFT5_Item_BrambleVestRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1075,7 +1114,7 @@
         "full": "TFT5_Item_RunaansHurricaneRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1088,7 +1127,7 @@
         "full": "TFT5_Item_SpearOfShojinRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1101,7 +1140,7 @@
         "full": "TFT5_Item_StatikkShivRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1114,7 +1153,7 @@
         "full": "TFT5_Item_SunfireCapeRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1127,7 +1166,7 @@
         "full": "TFT5_Item_TitansResolveRadiant.png",
         "sprite": "tft-item2.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1138,10 +1177,10 @@
       "name": "Urf-Angel's Staff",
       "image": {
         "full": "TFT5_Item_ArchangelsStaffRadiant.png",
-        "sprite": "tft-item2.png",
+        "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 96,
+        "x": 0,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1151,10 +1190,10 @@
       "name": "Warmog's Pride",
       "image": {
         "full": "TFT5_Item_WarmogsArmorRadiant.png",
-        "sprite": "tft-item2.png",
+        "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 96,
+        "x": 48,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1164,10 +1203,10 @@
       "name": "Zenith Edge",
       "image": {
         "full": "TFT5_Item_InfinityEdgeRadiant.png",
-        "sprite": "tft-item2.png",
+        "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 96,
+        "x": 96,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1179,7 +1218,7 @@
         "full": "TFT5_Item_ZzRotPortalRadiant.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1192,7 +1231,7 @@
         "full": "TFT_Item_DebugDamage.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1205,7 +1244,7 @@
         "full": "TFT_Item_DebugMana.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1218,7 +1257,7 @@
         "full": "TFT_Item_DebugStun.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1231,7 +1270,7 @@
         "full": "TFT_Item_DebugUnitID.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1244,7 +1283,7 @@
         "full": "TFT7_Item_ShimmerscaleMogulsMail.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1257,7 +1296,7 @@
         "full": "TFT7_Item_ShimmerscaleHeartOfGold.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1270,8 +1309,8 @@
         "full": "TFT7_Item_ShimmerscaleGoldmancersStaff.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1283,8 +1322,8 @@
         "full": "TFT_Consumable_ChampionDuplicator_III.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 0,
+        "x": 48,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1296,8 +1335,8 @@
         "full": "TFT9_Item_OrnnHullbreaker.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 96,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1309,7 +1348,7 @@
         "full": "TFT9_Item_OrnnTrickstersGlass.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1322,7 +1361,7 @@
         "full": "TFT9_Item_OrnnDeathfireGrasp.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1335,7 +1374,7 @@
         "full": "TFT9_Item_OrnnHorizonFocus.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1348,7 +1387,7 @@
         "full": "TFT_Item_UnusableSlot.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1361,7 +1400,7 @@
         "full": "TFT_Item_BlankSlot.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1374,7 +1413,7 @@
         "full": "TFT_Item_SpectralGauntlet.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1387,7 +1426,7 @@
         "full": "TFT5_Item_SpectralGauntletRadiant.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 48,
         "w": 48,
         "h": 48
@@ -1400,8 +1439,8 @@
         "full": "TFT_Item_Crownguard.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 48,
+        "x": 0,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1413,8 +1452,8 @@
         "full": "TFT5_Item_CrownguardRadiant.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 48,
+        "x": 48,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1426,8 +1465,8 @@
         "full": "TFT7_Item_ShimmerscaleGoldmancersStaff_HR.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 48,
+        "x": 96,
+        "y": 96,
         "w": 48,
         "h": 48
       }
@@ -1439,7 +1478,7 @@
         "full": "TFT_Item_NightHarvester.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1452,7 +1491,7 @@
         "full": "TFT7_Item_ShimmerscaleHeartOfGold_HR.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1465,7 +1504,7 @@
         "full": "TFT5_Item_NightHarvesterRadiant.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1478,7 +1517,7 @@
         "full": "TFT7_Item_ShimmerscaleMogulsMail_HR.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1491,7 +1530,7 @@
         "full": "TFT_Item_SteraksGage.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1504,7 +1543,7 @@
         "full": "TFT5_Item_SteraksGageRadiant.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1517,7 +1556,7 @@
         "full": "TFT_Item_BlueBuff.png",
         "sprite": "tft-item3.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 96,
         "w": 48,
         "h": 48
@@ -1528,10 +1567,10 @@
       "name": "Blue Blessing",
       "image": {
         "full": "TFT5_Item_BlueBuffRadiant.png",
-        "sprite": "tft-item3.png",
+        "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 96,
+        "x": 0,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1541,10 +1580,10 @@
       "name": "Adaptive Helm",
       "image": {
         "full": "TFT_Item_AdaptiveHelm.png",
-        "sprite": "tft-item3.png",
+        "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 96,
+        "x": 48,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1554,10 +1593,10 @@
       "name": "Jak'sho the Protean",
       "image": {
         "full": "TFT5_Item_AdaptiveHelmRadiant.png",
-        "sprite": "tft-item3.png",
+        "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 96,
+        "x": 96,
+        "y": 0,
         "w": 48,
         "h": 48
       }
@@ -1569,7 +1608,7 @@
         "full": "TFT_Item_Leviathan.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 144,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1582,7 +1621,7 @@
         "full": "TFT5_Item_LeviathanRadiant.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 192,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1595,7 +1634,7 @@
         "full": "TFT_Item_AegisOfTheLegion.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 96,
+        "x": 240,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1608,7 +1647,7 @@
         "full": "TFT_Item_RadiantVirtue.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 144,
+        "x": 288,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1621,7 +1660,7 @@
         "full": "TFT_Item_BansheesVeil.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 192,
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1634,7 +1673,7 @@
         "full": "TFT9_Item_OrnnPrototypeForge.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 384,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1647,7 +1686,7 @@
         "full": "TFT_Item_DebugShield.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 288,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
@@ -1660,8 +1699,8 @@
         "full": "TFT_Item_DebugCrit.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 336,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1673,8 +1712,21 @@
         "full": "TFT7_Item_ShimmerscaleGamblersBlade.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 384,
-        "y": 0,
+        "x": 48,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT7_Item_ShimmerscaleDeterminedInvestor": {
+      "id": "TFT7_Item_ShimmerscaleDeterminedInvestor",
+      "name": "Determined Investor",
+      "image": {
+        "full": "TFT7_Item_ShimmerscaleDeterminedInvestor.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1686,8 +1738,8 @@
         "full": "TFT7_Item_ShimmerscaleDiamondHands.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 144,
+        "y": 48,
         "w": 48,
         "h": 48
       }
@@ -1699,69 +1751,17 @@
         "full": "TFT7_Item_ShimmerscaleGamblersBlade_HR.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
-        "x": 0,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_PunkEmblem": {
-      "id": "TFT10_Item_PunkEmblem",
-      "name": "Punk Emblem",
-      "image": {
-        "full": "TFT10_Item_PunkEmblem.png",
-        "sprite": "tft-item4.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_EmoEmblem": {
-      "id": "TFT10_Item_EmoEmblem",
-      "name": "Emo Emblem",
-      "image": {
-        "full": "TFT10_Item_EmoEmblem.png",
-        "sprite": "tft-item4.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_KDAEmblem": {
-      "id": "TFT10_Item_KDAEmblem",
-      "name": "K/DA Emblem",
-      "image": {
-        "full": "TFT10_Item_KDAEmblem.png",
-        "sprite": "tft-item4.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_PentakillEmblem": {
-      "id": "TFT10_Item_PentakillEmblem",
-      "name": "Pentakill Emblem",
-      "image": {
-        "full": "TFT10_Item_PentakillEmblem.png",
-        "sprite": "tft-item4.png",
-        "group": "tft-item",
         "x": 192,
         "y": 48,
         "w": 48,
         "h": 48
       }
     },
-    "TFT10_Item_SpellweaverEmblem": {
-      "id": "TFT10_Item_SpellweaverEmblem",
-      "name": "Spellweaver Emblem",
+    "TFT_Item_DebugDamageAmp": {
+      "id": "TFT_Item_DebugDamageAmp",
+      "name": "Damage Amp",
       "image": {
-        "full": "TFT10_Item_SpellweaverEmblem.png",
+        "full": "TFT_Item_DebugDamageAmp.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
         "x": 240,
@@ -1770,11 +1770,11 @@
         "h": 48
       }
     },
-    "TFT10_Item_BigShotEmblem": {
-      "id": "TFT10_Item_BigShotEmblem",
-      "name": "Big Shot Emblem",
+    "TFT_Consumable_MasterworkUpgrade": {
+      "id": "TFT_Consumable_MasterworkUpgrade",
+      "name": "Masterwork Upgrade",
       "image": {
-        "full": "TFT10_Item_BigShotEmblem.png",
+        "full": "TFT_Consumable_MasterworkUpgrade.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
         "x": 288,
@@ -1783,11 +1783,11 @@
         "h": 48
       }
     },
-    "TFT10_Item_PBJEmblem": {
-      "id": "TFT10_Item_PBJEmblem",
-      "name": "Heartsteel Emblem",
+    "TFT_Consumable_TrashToTreasure_Reforger": {
+      "id": "TFT_Consumable_TrashToTreasure_Reforger",
+      "name": "Reforger",
       "image": {
-        "full": "TFT10_Item_PBJEmblem.png",
+        "full": "TFT_Consumable_TrashToTreasure_Reforger.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
         "x": 336,
@@ -1796,11 +1796,11 @@
         "h": 48
       }
     },
-    "TFT10_Item_ExecutionerEmblem": {
-      "id": "TFT10_Item_ExecutionerEmblem",
-      "name": "Executioner Emblem",
+    "TFT11_Item_ThiefsGlovesSupport": {
+      "id": "TFT11_Item_ThiefsGlovesSupport",
+      "name": "Accomplice's Gloves",
       "image": {
-        "full": "TFT10_Item_ExecutionerEmblem.png",
+        "full": "TFT11_Item_ThiefsGlovesSupport.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
         "x": 384,
@@ -1809,11 +1809,11 @@
         "h": 48
       }
     },
-    "TFT10_Item_DiscoEmblem": {
-      "id": "TFT10_Item_DiscoEmblem",
-      "name": "Disco Emblem",
+    "TFT9_Consumable_GoldenItemRemover": {
+      "id": "TFT9_Consumable_GoldenItemRemover",
+      "name": "Golden Item Remover",
       "image": {
-        "full": "TFT10_Item_DiscoEmblem.png",
+        "full": "TFT9_Consumable_GoldenItemRemover.png",
         "sprite": "tft-item4.png",
         "group": "tft-item",
         "x": 432,
@@ -1822,12 +1822,402 @@
         "h": 48
       }
     },
-    "TFT10_Item_BrawlerEmblem": {
-      "id": "TFT10_Item_BrawlerEmblem",
+    "TFT3_Item_BlademasterEmblem": {
+      "id": "TFT3_Item_BlademasterEmblem",
+      "name": "Blademaster Emblem",
+      "image": {
+        "full": "TFT3_Item_BlademasterEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_StarGuardianEmblem": {
+      "id": "TFT3_Item_StarGuardianEmblem",
+      "name": "Star Guardian Emblem",
+      "image": {
+        "full": "TFT3_Item_StarGuardianEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_InfiltratorEmblem": {
+      "id": "TFT3_Item_InfiltratorEmblem",
+      "name": "Infiltrator Emblem",
+      "image": {
+        "full": "TFT3_Item_InfiltratorEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_ProtectorEmblem": {
+      "id": "TFT3_Item_ProtectorEmblem",
+      "name": "Protector Emblem",
+      "image": {
+        "full": "TFT3_Item_ProtectorEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_DarkStarEmblem": {
+      "id": "TFT3_Item_DarkStarEmblem",
+      "name": "Dark Star Emblem",
+      "image": {
+        "full": "TFT3_Item_DarkStarEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_CelestialEmblem": {
+      "id": "TFT3_Item_CelestialEmblem",
+      "name": "Celestial Emblem",
+      "image": {
+        "full": "TFT3_Item_CelestialEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_RebelEmblem": {
+      "id": "TFT3_Item_RebelEmblem",
+      "name": "Rebel Emblem",
+      "image": {
+        "full": "TFT3_Item_RebelEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT3_Item_BattlecastEmblem": {
+      "id": "TFT3_Item_BattlecastEmblem",
+      "name": "Battlecast Emblem",
+      "image": {
+        "full": "TFT3_Item_BattlecastEmblem.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Storyweaver3_Support": {
+      "id": "TFT11_Storyweaver3_Support",
+      "name": "Talisman of Aid",
+      "image": {
+        "full": "TFT11_Storyweaver3_Support.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Storyweaver7_AP": {
+      "id": "TFT11_Storyweaver7_AP",
+      "name": "Tome of Power",
+      "image": {
+        "full": "TFT11_Storyweaver7_AP.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Storyweaver5_AS": {
+      "id": "TFT11_Storyweaver5_AS",
+      "name": "Scroll of Haste",
+      "image": {
+        "full": "TFT11_Storyweaver5_AS.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Consumable_Ghostly_SacrificialPact": {
+      "id": "TFT11_Consumable_Ghostly_SacrificialPact",
+      "name": "Blood Pact",
+      "image": {
+        "full": "TFT11_Consumable_Ghostly_SacrificialPact.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowOx": {
+      "id": "TFT11_Item_InkshadowOx",
+      "name": "Tattoo of Vitality",
+      "image": {
+        "full": "TFT11_Item_InkshadowOx.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowSnake": {
+      "id": "TFT11_Item_InkshadowSnake",
+      "name": "Tattoo of Toxin",
+      "image": {
+        "full": "TFT11_Item_InkshadowSnake.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowPig": {
+      "id": "TFT11_Item_InkshadowPig",
+      "name": "Tattoo of Protection",
+      "image": {
+        "full": "TFT11_Item_InkshadowPig.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowRat": {
+      "id": "TFT11_Item_InkshadowRat",
+      "name": "Tattoo of Bombardment",
+      "image": {
+        "full": "TFT11_Item_InkshadowRat.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowHorse": {
+      "id": "TFT11_Item_InkshadowHorse",
+      "name": "Tattoo of Force",
+      "image": {
+        "full": "TFT11_Item_InkshadowHorse.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkshadowTiger": {
+      "id": "TFT11_Item_InkshadowTiger",
+      "name": "Tattoo of Fury",
+      "image": {
+        "full": "TFT11_Item_InkshadowTiger.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_AltruistEmblemItem": {
+      "id": "TFT11_Item_AltruistEmblemItem",
+      "name": "Altruist Emblem",
+      "image": {
+        "full": "TFT11_Item_AltruistEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_BehemothEmblemItem": {
+      "id": "TFT11_Item_BehemothEmblemItem",
+      "name": "Behemoth Emblem",
+      "image": {
+        "full": "TFT11_Item_BehemothEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_BruiserEmblemItem": {
+      "id": "TFT11_Item_BruiserEmblemItem",
       "name": "Bruiser Emblem",
       "image": {
-        "full": "TFT10_Item_BrawlerEmblem.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_BruiserEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_DragonlordEmblemItem": {
+      "id": "TFT11_Item_DragonlordEmblemItem",
+      "name": "Dragonlord Emblem",
+      "image": {
+        "full": "TFT11_Item_DragonlordEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_ChallengerEmblemItem": {
+      "id": "TFT11_Item_ChallengerEmblemItem",
+      "name": "Duelist Emblem",
+      "image": {
+        "full": "TFT11_Item_ChallengerEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_DryadEmblemItem": {
+      "id": "TFT11_Item_DryadEmblemItem",
+      "name": "Dryad Emblem",
+      "image": {
+        "full": "TFT11_Item_DryadEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_FatedEmblemItem": {
+      "id": "TFT11_Item_FatedEmblemItem",
+      "name": "Fated Emblem",
+      "image": {
+        "full": "TFT11_Item_FatedEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_FortuneEmblemItem": {
+      "id": "TFT11_Item_FortuneEmblemItem",
+      "name": "Fortune Emblem",
+      "image": {
+        "full": "TFT11_Item_FortuneEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_GhostlyEmblemItem": {
+      "id": "TFT11_Item_GhostlyEmblemItem",
+      "name": "Ghostly Emblem",
+      "image": {
+        "full": "TFT11_Item_GhostlyEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_WardenEmblemItem": {
+      "id": "TFT11_Item_WardenEmblemItem",
+      "name": "Warden Emblem",
+      "image": {
+        "full": "TFT11_Item_WardenEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_HeavenlyEmblemItem": {
+      "id": "TFT11_Item_HeavenlyEmblemItem",
+      "name": "Heavenly Emblem",
+      "image": {
+        "full": "TFT11_Item_HeavenlyEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InkShadowEmblemItem": {
+      "id": "TFT11_Item_InkShadowEmblemItem",
+      "name": "Inkshadow Emblem",
+      "image": {
+        "full": "TFT11_Item_InkShadowEmblemItem.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Item_InvokerEmblemItem": {
+      "id": "TFT11_Item_InvokerEmblemItem",
+      "name": "Invoker Emblem",
+      "image": {
+        "full": "TFT11_Item_InvokerEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 0,
         "y": 96,
@@ -1835,12 +2225,12 @@
         "h": 48
       }
     },
-    "TFT10_Item_SuperfanEmblem": {
-      "id": "TFT10_Item_SuperfanEmblem",
-      "name": "Superfan Emblem",
+    "TFT11_Item_MythicEmblemItem": {
+      "id": "TFT11_Item_MythicEmblemItem",
+      "name": "Mythic Emblem",
       "image": {
-        "full": "TFT10_Item_SuperfanEmblem.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_MythicEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 48,
         "y": 96,
@@ -1848,12 +2238,12 @@
         "h": 48
       }
     },
-    "TFT10_Item_RapidfireEmblem": {
-      "id": "TFT10_Item_RapidfireEmblem",
-      "name": "Rapidfire Emblem",
+    "TFT11_Item_PorcelainEmblemItem": {
+      "id": "TFT11_Item_PorcelainEmblemItem",
+      "name": "Porcelain Emblem",
       "image": {
-        "full": "TFT10_Item_RapidfireEmblem.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_PorcelainEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 96,
         "y": 96,
@@ -1861,12 +2251,12 @@
         "h": 48
       }
     },
-    "TFT10_Desperado/TFT10_Desperado_Deal_ComponentBounty": {
-      "id": "TFT10_Desperado_Deal_ComponentBounty",
-      "name": "",
+    "TFT11_Item_ReaperEmblemItem": {
+      "id": "TFT11_Item_ReaperEmblemItem",
+      "name": "Reaper Emblem",
       "image": {
-        "full": "TFT10_Desperado_Deal_ComponentBounty.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_ReaperEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 144,
         "y": 96,
@@ -1874,12 +2264,12 @@
         "h": 48
       }
     },
-    "TFT10_Desperado/TFT10_Desperado_Deal_FutureSight": {
-      "id": "TFT10_Desperado_Deal_FutureSight",
-      "name": "",
+    "TFT11_Item_SageEmblemItem": {
+      "id": "TFT11_Item_SageEmblemItem",
+      "name": "Sage Emblem",
       "image": {
-        "full": "TFT10_Desperado_Deal_FutureSight.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_SageEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 192,
         "y": 96,
@@ -1887,12 +2277,12 @@
         "h": 48
       }
     },
-    "TFT10_Desperado/TFT10_Desperado_Deal_Stats": {
-      "id": "TFT10_Desperado_Deal_Stats",
-      "name": "",
+    "TFT11_Item_SniperEmblemItem": {
+      "id": "TFT11_Item_SniperEmblemItem",
+      "name": "Sniper Emblem",
       "image": {
-        "full": "TFT10_Desperado_Deal_Stats.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_SniperEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 240,
         "y": 96,
@@ -1900,12 +2290,12 @@
         "h": 48
       }
     },
-    "TFT10_DJ/TFT10_Item_DJ_Mode1": {
-      "id": "TFT10_Item_DJ_Mode1",
-      "name": "Heal and shield allies",
+    "TFT11_Item_SpellslingerEmblemItem": {
+      "id": "TFT11_Item_SpellslingerEmblemItem",
+      "name": "Arcanist Emblem",
       "image": {
-        "full": "TFT10_Item_DJ_Mode1.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_SpellslingerEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 288,
         "y": 96,
@@ -1913,12 +2303,12 @@
         "h": 48
       }
     },
-    "TFT10_DJ/TFT10_Item_DJ_Mode2": {
-      "id": "TFT10_Item_DJ_Mode2",
-      "name": "Grant allies Attack Speed",
+    "TFT11_Item_StoryweaverEmblemItem": {
+      "id": "TFT11_Item_StoryweaverEmblemItem",
+      "name": "Storyweaver Emblem",
       "image": {
-        "full": "TFT10_Item_DJ_Mode2.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_StoryweaverEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 336,
         "y": 96,
@@ -1926,12 +2316,12 @@
         "h": 48
       }
     },
-    "TFT10_DJ/TFT10_Item_DJ_Mode3": {
-      "id": "TFT10_Item_DJ_Mode3",
-      "name": "Boost Ability Power and deal damage",
+    "TFT11_Item_UmbralEmblemItem": {
+      "id": "TFT11_Item_UmbralEmblemItem",
+      "name": "Umbral Emblem",
       "image": {
-        "full": "TFT10_Item_DJ_Mode3.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Item_UmbralEmblemItem.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 384,
         "y": 96,
@@ -1939,12 +2329,12 @@
         "h": 48
       }
     },
-    "TFT10_Item_8bitEmblem": {
-      "id": "TFT10_Item_8bitEmblem",
-      "name": "8-bit Emblem",
+    "TFT11_Storyweaver9_Ascended": {
+      "id": "TFT11_Storyweaver9_Ascended",
+      "name": "Amulet of Ascension",
       "image": {
-        "full": "TFT10_Item_8bitEmblem.png",
-        "sprite": "tft-item4.png",
+        "full": "TFT11_Storyweaver9_Ascended.png",
+        "sprite": "tft-item5.png",
         "group": "tft-item",
         "x": 432,
         "y": 96,
@@ -1952,12 +2342,12 @@
         "h": 48
       }
     },
-    "TFT10_Item_JazzEmblem": {
-      "id": "TFT10_Item_JazzEmblem",
-      "name": "Jazz Emblem",
+    "TFT11_Storyweaver3_AS": {
+      "id": "TFT11_Storyweaver3_AS",
+      "name": "Talisman of Speed",
       "image": {
-        "full": "TFT10_Item_JazzEmblem.png",
-        "sprite": "tft-item5.png",
+        "full": "TFT11_Storyweaver3_AS.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 0,
         "y": 0,
@@ -1965,12 +2355,12 @@
         "h": 48
       }
     },
-    "TFT10_Item_TrueDamageEmblem": {
-      "id": "TFT10_Item_TrueDamageEmblem",
-      "name": "True Damage Emblem",
+    "TFT11_Storyweaver3_AP": {
+      "id": "TFT11_Storyweaver3_AP",
+      "name": "Talisman of Might",
       "image": {
-        "full": "TFT10_Item_TrueDamageEmblem.png",
-        "sprite": "tft-item5.png",
+        "full": "TFT11_Storyweaver3_AP.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 48,
         "y": 0,
@@ -1978,12 +2368,12 @@
         "h": 48
       }
     },
-    "TFT10_Consumable_KaynBlue": {
-      "id": "TFT10_Consumable_KaynBlue",
-      "name": "Shadow Mic",
+    "TFT11_Storyweaver7_AS": {
+      "id": "TFT11_Storyweaver7_AS",
+      "name": "Tome of Swiftness",
       "image": {
-        "full": "TFT10_Consumable_KaynBlue.png",
-        "sprite": "tft-item5.png",
+        "full": "TFT11_Storyweaver7_AS.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 96,
         "y": 0,
@@ -1991,12 +2381,12 @@
         "h": 48
       }
     },
-    "TFT10_Consumable_KaynRed": {
-      "id": "TFT10_Consumable_KaynRed",
-      "name": "Fury Guitar",
+    "TFT11_Storyweaver7_Support": {
+      "id": "TFT11_Storyweaver7_Support",
+      "name": "Tome of Mending",
       "image": {
-        "full": "TFT10_Consumable_KaynRed.png",
-        "sprite": "tft-item5.png",
+        "full": "TFT11_Storyweaver7_Support.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 144,
         "y": 0,
@@ -2004,12 +2394,12 @@
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_2": {
-      "id": "TFT_Assist_Gold_2",
-      "name": "5 gold",
+    "TFT11_Fortune_Cashout": {
+      "id": "TFT11_Fortune_Cashout",
+      "name": "Cash Out",
       "image": {
-        "full": "TFT_Assist_Gold_2.png",
-        "sprite": "tft-item5.png",
+        "full": "TFT11_Fortune_Cashout.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 192,
         "y": 0,
@@ -2017,505 +2407,115 @@
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_10": {
+    "TFT11_Fortune_PushYourLuck": {
+      "id": "TFT11_Fortune_PushYourLuck",
+      "name": "Push your luck",
+      "image": {
+        "full": "TFT11_Fortune_PushYourLuck.png",
+        "sprite": "tft-item6.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT11_Storyweaver5_AP": {
+      "id": "TFT11_Storyweaver5_AP",
+      "name": "Scroll of Force",
+      "image": {
+        "full": "TFT11_Storyweaver5_AP.png",
+        "sprite": "tft-item6.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Tier3_Units": {
+      "id": "TFT_Assist_Tier3_Units",
+      "name": "2 3-cost champions",
+      "image": {
+        "full": "TFT_Assist_Tier3_Units.png",
+        "sprite": "tft-item6.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Tier2_Units": {
+      "id": "TFT_Assist_Tier2_Units",
+      "name": "3 2-cost champions",
+      "image": {
+        "full": "TFT_Assist_Tier2_Units.png",
+        "sprite": "tft-item6.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Gold_10": {
       "id": "TFT_Assist_Gold_10",
       "name": "10 gold",
       "image": {
         "full": "TFT_Assist_Gold_10.png",
-        "sprite": "tft-item5.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
-        "x": 240,
+        "x": 432,
         "y": 0,
         "w": 48,
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_ChampionDuplicator": {
-      "id": "TFT_Assist_ChampionDuplicator",
-      "name": "Champion Duplicator",
-      "image": {
-        "full": "TFT_Assist_ChampionDuplicator.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_3": {
-      "id": "TFT_Assist_Gold_3",
-      "name": "5 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_3.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_4": {
-      "id": "TFT_Assist_Gold_4",
-      "name": "4 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_4.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_5": {
+    "TFT_Assist_Gold_5": {
       "id": "TFT_Assist_Gold_5",
       "name": "5 gold",
       "image": {
         "full": "TFT_Assist_Gold_5.png",
-        "sprite": "tft-item5.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
-        "x": 432,
-        "y": 0,
+        "x": 0,
+        "y": 48,
         "w": 48,
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_6": {
+    "TFT_Assist_Gold_6": {
       "id": "TFT_Assist_Gold_6",
       "name": "6 gold",
       "image": {
         "full": "TFT_Assist_Gold_6.png",
-        "sprite": "tft-item5.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 48,
         "y": 48,
         "w": 48,
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_7": {
+    "TFT_Assist_Gold_7": {
       "id": "TFT_Assist_Gold_7",
       "name": "7 Gold",
       "image": {
         "full": "TFT_Assist_Gold_7.png",
-        "sprite": "tft-item5.png",
+        "sprite": "tft-item6.png",
         "group": "tft-item",
-        "x": 48,
+        "x": 96,
         "y": 48,
         "w": 48,
         "h": 48
       }
     },
-    "DoubleUp_AssistItems/TFT_Assist_Gold_8": {
+    "TFT_Assist_Gold_8": {
       "id": "TFT_Assist_Gold_8",
       "name": "8 gold",
       "image": {
         "full": "TFT_Assist_Gold_8.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_100": {
-      "id": "TFT_Assist_Gold_100",
-      "name": "100 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_100.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_12": {
-      "id": "TFT_Assist_Gold_12",
-      "name": "12 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_12.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_126": {
-      "id": "TFT_Assist_Gold_126",
-      "name": "126 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_126.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_154": {
-      "id": "TFT_Assist_Gold_154",
-      "name": "154 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_154.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_16": {
-      "id": "TFT_Assist_Gold_16",
-      "name": "16 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_16.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_18": {
-      "id": "TFT_Assist_Gold_18",
-      "name": "18 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_18.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_20": {
-      "id": "TFT_Assist_Gold_20",
-      "name": "20 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_20.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_22": {
-      "id": "TFT_Assist_Gold_22",
-      "name": "22 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_22.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 0,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_24": {
-      "id": "TFT_Assist_Gold_24",
-      "name": "24 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_24.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_25": {
-      "id": "TFT_Assist_Gold_25",
-      "name": "25 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_25.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_26": {
-      "id": "TFT_Assist_Gold_26",
-      "name": "26 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_26.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_30": {
-      "id": "TFT_Assist_Gold_30",
-      "name": "30 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_30.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_34": {
-      "id": "TFT_Assist_Gold_34",
-      "name": "34 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_34.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_36": {
-      "id": "TFT_Assist_Gold_36",
-      "name": "36 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_36.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_40": {
-      "id": "TFT_Assist_Gold_40",
-      "name": "40 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_40.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_44": {
-      "id": "TFT_Assist_Gold_44",
-      "name": "44 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_44.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_54": {
-      "id": "TFT_Assist_Gold_54",
-      "name": "54 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_54.png",
-        "sprite": "tft-item5.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_64": {
-      "id": "TFT_Assist_Gold_64",
-      "name": "64 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_64.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 0,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_76": {
-      "id": "TFT_Assist_Gold_76",
-      "name": "76 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_76.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_CountryEmblem": {
-      "id": "TFT10_Item_CountryEmblem",
-      "name": "Country Emblem",
-      "image": {
-        "full": "TFT10_Item_CountryEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_CrowdDiverEmblem": {
-      "id": "TFT10_Item_CrowdDiverEmblem",
-      "name": "Crowd Diver Emblem",
-      "image": {
-        "full": "TFT10_Item_CrowdDiverEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_DazzlerEmblem": {
-      "id": "TFT10_Item_DazzlerEmblem",
-      "name": "Dazzler Emblem",
-      "image": {
-        "full": "TFT10_Item_DazzlerEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_EdgelordEmblem": {
-      "id": "TFT10_Item_EdgelordEmblem",
-      "name": "Edgelord Emblem",
-      "image": {
-        "full": "TFT10_Item_EdgelordEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_FighterEmblem": {
-      "id": "TFT10_Item_FighterEmblem",
-      "name": "Mosher Emblem",
-      "image": {
-        "full": "TFT10_Item_FighterEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_GuardianEmblem": {
-      "id": "TFT10_Item_GuardianEmblem",
-      "name": "Guardian Emblem",
-      "image": {
-        "full": "TFT10_Item_GuardianEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_WardenEmblem": {
-      "id": "TFT10_Item_WardenEmblem",
-      "name": "Sentinel Emblem",
-      "image": {
-        "full": "TFT10_Item_WardenEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Consumable_EDM_Selector": {
-      "id": "TFT10_Consumable_EDM_Selector",
-      "name": "EDM Selector",
-      "image": {
-        "full": "TFT10_Consumable_EDM_Selector.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT10_Item_HyperPopEmblem": {
-      "id": "TFT10_Item_HyperPopEmblem",
-      "name": "Hyperpop Emblem",
-      "image": {
-        "full": "TFT10_Item_HyperPopEmblem.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 0,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponentAnvil": {
-      "id": "TFT_Item_GrantComponentAnvil",
-      "name": "Component Item Key",
-      "image": {
-        "full": "TFT_Item_GrantComponentAnvil.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_16": {
-      "id": "TFT_Assist_Gold_16",
-      "name": "16 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_16.png",
-        "sprite": "tft-item6.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_34": {
-      "id": "TFT_Assist_Gold_34",
-      "name": "34 gold",
-      "image": {
-        "full": "TFT_Assist_Gold_34.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 144,
@@ -2524,11 +2524,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_18": {
-      "id": "TFT_Assist_Gold_18",
-      "name": "18 gold",
+    "TFT_Assist_RandomComponent": {
+      "id": "TFT_Assist_RandomComponent",
+      "name": "Random Component",
       "image": {
-        "full": "TFT_Assist_Gold_18.png",
+        "full": "TFT_Assist_RandomComponent.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 192,
@@ -2537,11 +2537,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_22": {
-      "id": "TFT_Assist_Gold_22",
-      "name": "22 gold",
+    "TFT_Assist_RuneOfAllegiance": {
+      "id": "TFT_Assist_RuneOfAllegiance",
+      "name": "Rune of Allegiance",
       "image": {
-        "full": "TFT_Assist_Gold_22.png",
+        "full": "TFT_Assist_RuneOfAllegiance.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 240,
@@ -2550,11 +2550,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_54": {
-      "id": "TFT_Assist_Gold_54",
-      "name": "54 gold",
+    "TFT_Assist_LesserRuneOfAllegiance": {
+      "id": "TFT_Assist_LesserRuneOfAllegiance",
+      "name": "Lesser Rune of Allegiance",
       "image": {
-        "full": "TFT_Assist_Gold_54.png",
+        "full": "TFT_Assist_LesserRuneOfAllegiance.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 288,
@@ -2563,11 +2563,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_12": {
-      "id": "TFT_Assist_Gold_12",
-      "name": "12 gold",
+    "TFT_Assist_Reforger_And_Gold": {
+      "id": "TFT_Assist_Reforger_And_Gold",
+      "name": "Reforger and 5 Gold",
       "image": {
-        "full": "TFT_Assist_Gold_12.png",
+        "full": "TFT_Assist_Reforger_And_Gold.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 336,
@@ -2576,11 +2576,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_20": {
-      "id": "TFT_Assist_Gold_20",
-      "name": "20 gold",
+    "TFT_Assist_TomeOfTraits": {
+      "id": "TFT_Assist_TomeOfTraits",
+      "name": "Tome of Traits and Reforger",
       "image": {
-        "full": "TFT_Assist_Gold_20.png",
+        "full": "TFT_Assist_TomeOfTraits.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 384,
@@ -2589,11 +2589,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_24": {
-      "id": "TFT_Assist_Gold_24",
-      "name": "24 gold",
+    "TFT_Assist_RandomRadiantItem": {
+      "id": "TFT_Assist_RandomRadiantItem",
+      "name": "Radiant Item",
       "image": {
-        "full": "TFT_Assist_Gold_24.png",
+        "full": "TFT_Assist_RandomRadiantItem.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 432,
@@ -2602,11 +2602,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_36": {
-      "id": "TFT_Assist_Gold_36",
-      "name": "36 gold",
+    "TFT_Assist_TacticiansCrown": {
+      "id": "TFT_Assist_TacticiansCrown",
+      "name": "Tactician's Crown",
       "image": {
-        "full": "TFT_Assist_Gold_36.png",
+        "full": "TFT_Assist_TacticiansCrown.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 0,
@@ -2615,11 +2615,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_76": {
-      "id": "TFT_Assist_Gold_76",
-      "name": "76 gold",
+    "TFT_Assist_ChampionDuplicator": {
+      "id": "TFT_Assist_ChampionDuplicator",
+      "name": "Champion Duplicator",
       "image": {
-        "full": "TFT_Assist_Gold_76.png",
+        "full": "TFT_Assist_ChampionDuplicator.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 48,
@@ -2628,11 +2628,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_30": {
-      "id": "TFT_Assist_Gold_30",
-      "name": "30 gold",
+    "TFT_Assist_ItemArmoryCompleted": {
+      "id": "TFT_Assist_ItemArmoryCompleted",
+      "name": "Completed Item Anvil",
       "image": {
-        "full": "TFT_Assist_Gold_30.png",
+        "full": "TFT_Assist_ItemArmoryCompleted.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 96,
@@ -2641,11 +2641,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_25": {
-      "id": "TFT_Assist_Gold_25",
-      "name": "25 gold",
+    "TFT_Assist_Spatula": {
+      "id": "TFT_Assist_Spatula",
+      "name": "Spatula",
       "image": {
-        "full": "TFT_Assist_Gold_25.png",
+        "full": "TFT_Assist_Spatula.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 144,
@@ -2654,11 +2654,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_40": {
-      "id": "TFT_Assist_Gold_40",
-      "name": "40 gold",
+    "TFT_Assist_Remover_And_Gold": {
+      "id": "TFT_Assist_Remover_And_Gold",
+      "name": "Remover and 5 Gold",
       "image": {
-        "full": "TFT_Assist_Gold_40.png",
+        "full": "TFT_Assist_Remover_And_Gold.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 192,
@@ -2667,11 +2667,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_100": {
-      "id": "TFT_Assist_Gold_100",
-      "name": "100 gold",
+    "TFT_Assist_LoadedDice": {
+      "id": "TFT_Assist_LoadedDice",
+      "name": "Loaded Dice",
       "image": {
-        "full": "TFT_Assist_Gold_100.png",
+        "full": "TFT_Assist_LoadedDice.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 240,
@@ -2680,11 +2680,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_26": {
-      "id": "TFT_Assist_Gold_26",
-      "name": "26 gold",
+    "TFT_Assist_ItemArmoryComponent": {
+      "id": "TFT_Assist_ItemArmoryComponent",
+      "name": "Component Anvil",
       "image": {
-        "full": "TFT_Assist_Gold_26.png",
+        "full": "TFT_Assist_ItemArmoryComponent.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 288,
@@ -2693,11 +2693,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_126": {
-      "id": "TFT_Assist_Gold_126",
-      "name": "126 gold",
+    "TFT_Assist_ThiefsGloves": {
+      "id": "TFT_Assist_ThiefsGloves",
+      "name": "Thief's Gloves",
       "image": {
-        "full": "TFT_Assist_Gold_126.png",
+        "full": "TFT_Assist_ThiefsGloves.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 336,
@@ -2706,11 +2706,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_44": {
-      "id": "TFT_Assist_Gold_44",
-      "name": "44 gold",
+    "TFT_Assist_RandomComponent_3": {
+      "id": "TFT_Assist_RandomComponent_3",
+      "name": "2 Components",
       "image": {
-        "full": "TFT_Assist_Gold_44.png",
+        "full": "TFT_Assist_RandomComponent_3.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 384,
@@ -2719,11 +2719,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_64": {
-      "id": "TFT_Assist_Gold_64",
-      "name": "64 gold",
+    "TFT_Assist_Spatula_And_ItemArmoryComponent": {
+      "id": "TFT_Assist_Spatula_And_ItemArmoryComponent",
+      "name": "Spatula and Component Anvil",
       "image": {
-        "full": "TFT_Assist_Gold_64.png",
+        "full": "TFT_Assist_Spatula_And_ItemArmoryComponent.png",
         "sprite": "tft-item6.png",
         "group": "tft-item",
         "x": 432,
@@ -2732,11 +2732,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Assist_Gold_154": {
-      "id": "TFT_Assist_Gold_154",
-      "name": "154 gold",
+    "TFT_Assist_TrainingDummy": {
+      "id": "TFT_Assist_TrainingDummy",
+      "name": "1 Training Dummy",
       "image": {
-        "full": "TFT_Assist_Gold_154.png",
+        "full": "TFT_Assist_TrainingDummy.png",
         "sprite": "tft-item7.png",
         "group": "tft-item",
         "x": 0,
@@ -2745,11 +2745,11 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Random_5_Cost": {
-      "id": "TFT_Random_5_Cost",
-      "name": "Prison Break!",
+    "TFT_Assist_RandomCompletedItems_And_Reforger": {
+      "id": "TFT_Assist_RandomCompletedItems_And_Reforger",
+      "name": "2 Completed Items and Reforger",
       "image": {
-        "full": "TFT_Random_5_Cost.png",
+        "full": "TFT_Assist_RandomCompletedItems_And_Reforger.png",
         "sprite": "tft-item7.png",
         "group": "tft-item",
         "x": 48,
@@ -2758,378 +2758,79 @@
         "h": 48
       }
     },
-    "TFT8_TheUndergroundItems/TFT_Random_Two_Star_4_Cost": {
-      "id": "TFT_Random_Two_Star_4_Cost",
-      "name": "Prison Break!",
-      "image": {
-        "full": "TFT_Random_Two_Star_4_Cost.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantCompletedAnvil": {
-      "id": "TFT_Item_GrantCompletedAnvil",
-      "name": "Completed Item Key",
-      "image": {
-        "full": "TFT_Item_GrantCompletedAnvil.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponentAnvil": {
-      "id": "TFT_Item_GrantComponentAnvil",
-      "name": "Component Item Key",
-      "image": {
-        "full": "TFT_Item_GrantComponentAnvil.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantTomeOfTraits": {
-      "id": "TFT_Item_GrantTomeOfTraits",
-      "name": "Tome of Traits",
-      "image": {
-        "full": "TFT_Item_GrantTomeOfTraits.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantCompletedItem1": {
-      "id": "TFT_Item_GrantCompletedItem1",
-      "name": "1 completed item",
-      "image": {
-        "full": "TFT_Item_GrantCompletedItem1.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantCompletedItem2": {
-      "id": "TFT_Item_GrantCompletedItem2",
-      "name": "@ItemsToGive@ completed items",
-      "image": {
-        "full": "TFT_Item_GrantCompletedItem2.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantCompletedItem3": {
-      "id": "TFT_Item_GrantCompletedItem3",
-      "name": "@ItemsToGive@ completed items",
-      "image": {
-        "full": "TFT_Item_GrantCompletedItem3.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent1": {
-      "id": "TFT_Item_GrantComponent1",
-      "name": "1 component",
-      "image": {
-        "full": "TFT_Item_GrantComponent1.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 0,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent2": {
-      "id": "TFT_Item_GrantComponent2",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent2.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 0,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantCompletedItem3": {
-      "id": "TFT_Item_GrantCompletedItem3",
-      "name": "@ItemsToGive@ completed items",
-      "image": {
-        "full": "TFT_Item_GrantCompletedItem3.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent1": {
-      "id": "TFT_Item_GrantComponent1",
-      "name": "1 component",
-      "image": {
-        "full": "TFT_Item_GrantComponent1.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent2": {
-      "id": "TFT_Item_GrantComponent2",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent2.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent3": {
-      "id": "TFT_Item_GrantComponent3",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent3.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent4": {
-      "id": "TFT_Item_GrantComponent4",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent4.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent5": {
-      "id": "TFT_Item_GrantComponent5",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent5.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent6": {
-      "id": "TFT_Item_GrantComponent6",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent6.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent7": {
-      "id": "TFT_Item_GrantComponent7",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent7.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent8": {
-      "id": "TFT_Item_GrantComponent8",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent8.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 48,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantComponent9": {
-      "id": "TFT_Item_GrantComponent9",
-      "name": "@ItemsToGive@ components",
-      "image": {
-        "full": "TFT_Item_GrantComponent9.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 0,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs1": {
-      "id": "TFT_Item_GrantOrbs1",
-      "name": "1 loot orb",
-      "image": {
-        "full": "TFT_Item_GrantOrbs1.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 48,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs2": {
-      "id": "TFT_Item_GrantOrbs2",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs2.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 96,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs3": {
-      "id": "TFT_Item_GrantOrbs3",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs3.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 144,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs4": {
-      "id": "TFT_Item_GrantOrbs4",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs4.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 192,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs5": {
-      "id": "TFT_Item_GrantOrbs5",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs5.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 240,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs6": {
-      "id": "TFT_Item_GrantOrbs6",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs6.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 288,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs7": {
-      "id": "TFT_Item_GrantOrbs7",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs7.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 336,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs8": {
-      "id": "TFT_Item_GrantOrbs8",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs8.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 384,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrbs9": {
-      "id": "TFT_Item_GrantOrbs9",
-      "name": "@OrbsToGive@ loot orbs",
-      "image": {
-        "full": "TFT_Item_GrantOrbs9.png",
-        "sprite": "tft-item7.png",
-        "group": "tft-item",
-        "x": 432,
-        "y": 96,
-        "w": 48,
-        "h": 48
-      }
-    },
-    "TFT8_TheUndergroundItems/TFT_Item_GrantOrnnAnvil": {
-      "id": "TFT_Item_GrantOrnnAnvil",
+    "TFT_Assist_ItemArmoryOrnn": {
+      "id": "TFT_Assist_ItemArmoryOrnn",
       "name": "Artifact Anvil",
       "image": {
-        "full": "TFT_Item_GrantOrnnAnvil.png",
-        "sprite": "tft-item8.png",
+        "full": "TFT_Assist_ItemArmoryOrnn.png",
+        "sprite": "tft-item7.png",
         "group": "tft-item",
-        "x": 0,
+        "x": 96,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Tier4_Units": {
+      "id": "TFT_Assist_Tier4_Units",
+      "name": "2 4-cost champions",
+      "image": {
+        "full": "TFT_Assist_Tier4_Units.png",
+        "sprite": "tft-item7.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_RandomOrnnItem": {
+      "id": "TFT_Assist_RandomOrnnItem",
+      "name": "Artifact Item",
+      "image": {
+        "full": "TFT_Assist_RandomOrnnItem.png",
+        "sprite": "tft-item7.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Tier5_Units_And_Gold": {
+      "id": "TFT_Assist_Tier5_Units_And_Gold",
+      "name": "5-cost Champion and 7 Gold",
+      "image": {
+        "full": "TFT_Assist_Tier5_Units_And_Gold.png",
+        "sprite": "tft-item7.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Assist_Tier4_Units_And_Gold": {
+      "id": "TFT_Assist_Tier4_Units_And_Gold",
+      "name": "4-cost Champion and 4 Gold",
+      "image": {
+        "full": "TFT_Assist_Tier4_Units_And_Gold.png",
+        "sprite": "tft-item7.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Consumable_TrainingDummy": {
+      "id": "TFT_Consumable_TrainingDummy",
+      "name": "Target Dummy",
+      "image": {
+        "full": "TFT_Consumable_TrainingDummy.png",
+        "sprite": "tft-item7.png",
+        "group": "tft-item",
+        "x": 336,
         "y": 0,
         "w": 48,
         "h": 48

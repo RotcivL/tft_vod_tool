@@ -5,11 +5,11 @@ import { MatchDto, RegionKey, Env } from '../lib/types';
 import riotRoutes from '@/app/constants/riotRoutes.json';
 
 const twoMinuteLimiter = new RateLimiter({
-  tokensPerInterval: 95,
+  tokensPerInterval: 50,
   interval: 1000 * 120,
 });
 const secondLimiter = new RateLimiter({
-  tokensPerInterval: 10,
+  tokensPerInterval: 5,
   interval: 'second',
 });
 

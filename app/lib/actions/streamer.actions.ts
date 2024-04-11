@@ -98,6 +98,7 @@ export async function updateStreamer(id: string) {
     connectToDB();
 
     const streamer = await Streamer.findById(id);
+
     const vods = await updateVods(
       streamer.twitchId,
       streamer.puuid,

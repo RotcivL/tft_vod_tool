@@ -6,7 +6,6 @@ import tftChampions from '@/app/constants/tft-champion.json';
 import tftItems from '@/app/constants/tft-item.json';
 import { StarIcon } from '@heroicons/react/24/solid';
 import { secondsToTimestamp } from '@/app/lib/utils';
-import { forwardRef } from 'react';
 
 export default function MatchTable({
   matches,
@@ -108,13 +107,15 @@ export default function MatchTable({
 
                               <div className="flex gap-[1px]">
                                 {unit.itemNames.map((item, itemId) => (
-                                  <Image
-                                    key={itemId}
-                                    src={`/tft/tft-item/${tftItems.data[item].image.full}`}
-                                    width={14}
-                                    height={14}
-                                    alt={`${item} image`}
-                                  />
+                                  <div>
+                                    <Image
+                                      key={itemId}
+                                      src={`/tft/tft-item/${tftItems.data[item].image.full}`}
+                                      width={14}
+                                      height={14}
+                                      alt={`${item} image`}
+                                    />
+                                  </div>
                                 ))}
                               </div>
                             </div>
