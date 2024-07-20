@@ -2835,6 +2835,318 @@
         "w": 48,
         "h": 48
       }
+    },
+    "TFT_Item_EternalFlame": {
+      "id": "TFT_Item_EternalFlame",
+      "name": "The Eternal Flame",
+      "image": {
+        "full": "TFT_Item_EternalFlame.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_SupportKnightsVow": {
+      "id": "TFT_Item_SupportKnightsVow",
+      "name": "Knight's Vow",
+      "image": {
+        "full": "TFT_Item_SupportKnightsVow.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Moonstone": {
+      "id": "TFT_Item_Moonstone",
+      "name": "Moonstone Renewer",
+      "image": {
+        "full": "TFT_Item_Moonstone.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Spite": {
+      "id": "TFT_Item_Spite",
+      "name": "Spite",
+      "image": {
+        "full": "TFT_Item_Spite.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_UnstableTreasureChest": {
+      "id": "TFT_Item_UnstableTreasureChest",
+      "name": "Unstable Treasure Chest",
+      "image": {
+        "full": "TFT_Item_UnstableTreasureChest.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_TalismanOfAscension": {
+      "id": "TFT_Item_Artifact_TalismanOfAscension",
+      "name": "Talisman Of Ascension",
+      "image": {
+        "full": "TFT_Item_Artifact_TalismanOfAscension.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_CursedVampiricScepter": {
+      "id": "TFT_Item_Artifact_CursedVampiricScepter",
+      "name": "Corrupt Vampiric Scepter",
+      "image": {
+        "full": "TFT_Item_Artifact_CursedVampiricScepter.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_Fishbones": {
+      "id": "TFT_Item_Artifact_Fishbones",
+      "name": "Fishbones",
+      "image": {
+        "full": "TFT_Item_Artifact_Fishbones.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_SuspiciousTrenchCoat": {
+      "id": "TFT_Item_Artifact_SuspiciousTrenchCoat",
+      "name": "Suspicious Trench Coat",
+      "image": {
+        "full": "TFT_Item_Artifact_SuspiciousTrenchCoat.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_HorizonFocus": {
+      "id": "TFT_Item_Artifact_HorizonFocus",
+      "name": "Horizon Focus",
+      "image": {
+        "full": "TFT_Item_Artifact_HorizonFocus.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_Mittens": {
+      "id": "TFT_Item_Artifact_Mittens",
+      "name": "Mittens",
+      "image": {
+        "full": "TFT_Item_Artifact_Mittens.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_UnendingDespair": {
+      "id": "TFT_Item_Artifact_UnendingDespair",
+      "name": "Unending Despair",
+      "image": {
+        "full": "TFT_Item_Artifact_UnendingDespair.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_RapidFirecannon": {
+      "id": "TFT_Item_Artifact_RapidFirecannon",
+      "name": "Rapid Firecannon",
+      "image": {
+        "full": "TFT_Item_Artifact_RapidFirecannon.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_InnervatingLocket": {
+      "id": "TFT_Item_Artifact_InnervatingLocket",
+      "name": "Innervating Locket",
+      "image": {
+        "full": "TFT_Item_Artifact_InnervatingLocket.png",
+        "sprite": "tft-item4.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_LudensTempest": {
+      "id": "TFT_Item_Artifact_LudensTempest",
+      "name": "Luden's Tempest",
+      "image": {
+        "full": "TFT_Item_Artifact_LudensTempest.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_SilvermereDawn": {
+      "id": "TFT_Item_Artifact_SilvermereDawn",
+      "name": "Silvermere Dawn",
+      "image": {
+        "full": "TFT_Item_Artifact_SilvermereDawn.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 48,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_ProwlersClaw": {
+      "id": "TFT_Item_Artifact_ProwlersClaw",
+      "name": "Prowler's Claw",
+      "image": {
+        "full": "TFT_Item_Artifact_ProwlersClaw.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 96,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_SpectralCutlass": {
+      "id": "TFT_Item_Artifact_SpectralCutlass",
+      "name": "Spectral Cutlass",
+      "image": {
+        "full": "TFT_Item_Artifact_SpectralCutlass.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 144,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_BlightingJewel": {
+      "id": "TFT_Item_Artifact_BlightingJewel",
+      "name": "Blighting Jewel",
+      "image": {
+        "full": "TFT_Item_Artifact_BlightingJewel.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_WitsEnd": {
+      "id": "TFT_Item_Artifact_WitsEnd",
+      "name": "Wit's End",
+      "image": {
+        "full": "TFT_Item_Artifact_WitsEnd.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 240,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_ForbiddenIdol": {
+      "id": "TFT_Item_Artifact_ForbiddenIdol",
+      "name": "Forbidden Idol",
+      "image": {
+        "full": "TFT_Item_Artifact_ForbiddenIdol.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 288,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_LichBane": {
+      "id": "TFT_Item_Artifact_LichBane",
+      "name": "Lich Bane",
+      "image": {
+        "full": "TFT_Item_Artifact_LichBane.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 336,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_LightshieldCrest": {
+      "id": "TFT_Item_Artifact_LightshieldCrest",
+      "name": "Lightshield Crest",
+      "image": {
+        "full": "TFT_Item_Artifact_LightshieldCrest.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 384,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
+    "TFT_Item_Artifact_SeekersArmguard": {
+      "id": "TFT_Item_Artifact_SeekersArmguard",
+      "name": "Seeker's Armguard",
+      "image": {
+        "full": "TFT_Item_Artifact_SeekersArmguard.png",
+        "sprite": "tft-item5.png",
+        "group": "tft-item",
+        "x": 432,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
     }
   }
 }
