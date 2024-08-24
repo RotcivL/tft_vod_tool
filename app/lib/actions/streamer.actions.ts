@@ -99,11 +99,16 @@ export async function updateStreamer(id: string) {
 
     const streamer = await Streamer.findById(id);
 
+    const updateTime =
+      streamer.lastUpdate.getTime() >= Date.now() - 2 * DAY_IN_MILLI
+        ? streamer.lastUpdate.getTime()
+        : Date.now() - 2 * DAY_IN_MILLI;
+
     const vods = await updateVods(
       streamer.twitchId,
       streamer.puuid,
       streamer.region,
-      streamer.lastUpdate.getTime()
+      updateTime
     );
     const vodIds = vods.map(vod => {
       return vod._id;

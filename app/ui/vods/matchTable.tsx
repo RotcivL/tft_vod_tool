@@ -58,8 +58,8 @@ export default function MatchTable({
                             <Image
                               key={match._id + tftAugments.data[aug].id}
                               src={`/tft/tft-augment/${tftAugments.data[aug].image.full}`}
-                              width={24}
-                              height={24}
+                              width={32}
+                              height={32}
                               alt={`${aug}'s image`}
                             />
                           );
@@ -69,6 +69,8 @@ export default function MatchTable({
                     <td className="whitespace-nowrap px-3 py-3">
                       <div className="flex gap-1">
                         {match.units.map((unit, unitId) => {
+                          console.log(unit);
+
                           const tier =
                             tftChampions.data[unit.character_id].tier;
 
