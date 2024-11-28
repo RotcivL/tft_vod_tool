@@ -1598,6 +1598,20 @@
         "h": 48
       }
     },
+    "TFT13_Elise": {
+      "id": "TFT13_Elise",
+      "name": "Elise",
+      "tier": 4,
+      "image": {
+        "full": "TFT13_Elise.TFT_Set13.png",
+        "sprite": "tft-champion3.png",
+        "group": "tft-champion",
+        "x": 144,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      }
+    },
     "TFT13_LeBlanc": {
       "id": "TFT13_LeBlanc",
       "name": "LeBlanc",
@@ -2130,6 +2144,20 @@
         "h": 48
       }
     },
+    "tft13_swain": {
+      "id": "TFT13_Swain",
+      "name": "Swain",
+      "tier": 3,
+      "image": {
+        "full": "TFT13_Swain.TFT_Set13.png",
+        "sprite": "tft-champion5.png",
+        "group": "tft-champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      }
+    },
     "TFT13_Urgot": {
       "id": "TFT13_Urgot",
       "name": "Urgot",
@@ -2157,6 +2185,11 @@
         "w": 48,
         "h": 48
       }
+    },
+    "TFT13_JayceSummon": {
+      "id": "TFT13_JayceSummon",
+      "name": "JayceSummom",
+      "tier": 1
     },
     "TFT12_Zilean": {
       "id": "TFT12_Zilean",
