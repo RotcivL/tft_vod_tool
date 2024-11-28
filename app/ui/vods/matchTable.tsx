@@ -70,7 +70,8 @@ export default function MatchTable({
                       <div className="flex gap-1">
                         {match.units.map((unit, unitId) => {
                           console.log(unit);
-
+                          if (unit.character_id === 'TFT13_JayceSummon')
+                            return <></>;
                           const tier =
                             tftChampions.data[unit.character_id].tier;
 
